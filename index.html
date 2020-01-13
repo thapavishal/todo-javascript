@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>TODO LIST</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>TODO</h1>
+            <input type="text" id="add" placeholder="Enter task..."  onchange="addItem()"/>
+        <div id="taskHolder">
+
+        </div>
+        <button id="del" onclick="var items = []; taskHolder.innerHTML = '';" >Delete</button>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
